@@ -1,0 +1,75 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#testimonio{
+	background: #f1f1f1;
+	padding: 50px 0 30px 0;
+	text-align: center;
+	margin-top: 40px;
+}
+
+header{
+	margin-top: 75px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#contenedor_carga{
+	background-color: rgb(250, 240, 245, 0.9);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	z-index: 10000;
+} 
+
+#carga{
+	border: 15px solid #ccc;
+	border-top-color: #F4266A;
+	border-top-style: groove;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+
+	-webkit-animation: girar 1.5s linear infinite;
+	-o-animation: girar 1.5s linear infinite;
+	animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar {
+	from { transform: rotate(0deg); }
+	to {transform: rotate(360deg);}
+}
+
+.card{
+	float:left;
+}
+
+#tarjeta1{
+	margin-left: 250px;
+	margin-top: 50px;
+	margin-right: 50px;
+	color: BLACK;
+}
+
+#tarjeta2{
+	margin-left: 175px;
+	margin-top: 50px;
+	margin-right: 50px;
+	color: BLACK;
+}
+
+#titulo{
+	float: center;
+	margin-top: 100px;
+}
